@@ -1,5 +1,5 @@
 pkgname=libxscrnsaver
-pkgver=1.2.4
+pkgver=1.2.5
 pkgrel=1
 pkgdesc="libXScrnSaver contains the X.org screen saver library"
 arch=('x86_64')
@@ -13,7 +13,7 @@ depends=(
 )
 makedepends=('xorg-util-macros')
 source=(https://www.x.org/pub/individual/lib/libXScrnSaver-${pkgver}.tar.xz)
-sha256sums=(75cd2859f38e207a090cac980d76bc71e9da99d48d09703584e00585abc920fe)
+sha256sums=(5057365f847253e0e275871441e10ff7846c8322a5d88e1e187d326de1cd8d00)
 
 build() {
     cd libXScrnSaver-${pkgver}
